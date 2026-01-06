@@ -7,7 +7,7 @@ export default function Alert() {
       <FiAlertCircle className="text-xl text-[#FB5A5A]" />
       <p className="font-semibold">Order failed</p>
       <p className="text-sm text-[#C7C7C7]">Order failed in 3 strategies have failed orders</p>
-      <button className="text-black bg-white px-2 py-px text-sm font-semibold rounded-[5px]">View All</button>
+      <button className="text-black bg-white px-2 py-px text-sm font-semibold rounded-[5px] cursor-pointer hover:brightness-75">View All</button>
     </div>
   );
 }

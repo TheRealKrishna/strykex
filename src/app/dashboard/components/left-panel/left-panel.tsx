@@ -21,7 +21,7 @@ export default function LeftPanel() {
         <RightSideBorder />
         <ToggleButton />
       </div>
-      <div>
+      <div className="px-3 m-2">
         <ContactUs />
       </div>
     </div>

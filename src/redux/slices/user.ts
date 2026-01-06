@@ -20,7 +20,7 @@ const initialState: userState = {
   email: "john.doe@example.com",
   avatarUrl: "https://randomuser.me/api/portraits/men/1.jpg",
   balance: 2000764.64,
-  tokenExpiry: new Date(Date.now() + 1000 * 60 * 60 * 24).toISOString(),
+  tokenExpiry: "2026-12-30",
 };
 
 export const userSlice = createSlice({
