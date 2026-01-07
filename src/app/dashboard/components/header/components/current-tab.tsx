@@ -10,7 +10,7 @@ export default function CurrentTab() {
       <div className="text-2xl">
         {React.createElement(tabs[currentTab].icon)}
       </div>
-      <div className="text-md">{tabs[currentTab].label}</div>
+      <div className="text-md break-keep whitespace-nowrap">{tabs[currentTab].label}</div>
     </div>
   );
 }

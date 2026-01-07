@@ -18,7 +18,7 @@ export default function ContactUs() {
           A.I Trading Bots Trading Bots Lorem Ipsum
         </p>
       </div>
-      <button className="text-black bg-white w-full py-1 rounded-full text-xl">Support</button>
+      <button className="text-black bg-white w-full py-1 rounded-full text-xl cursor-pointer hover:brightness-75 hover:ring-1">Support</button>
     </div>
   );
 }

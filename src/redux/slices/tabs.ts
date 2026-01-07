@@ -1,9 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import type { RootState } from "../store";
-import {
-  tabs,
-  type tabType,
-} from "@/app/dashboard/components/left-panel/components/tabs/config/tabs";
+import { type tabType } from "@/app/dashboard/components/left-panel/components/tabs/config/tabs";
 
 interface TabsState {
   currentTab: keyof tabType;
@@ -24,6 +20,5 @@ export const tabsSlice = createSlice({
 });
 
 export const { setTab } = tabsSlice.actions;
-export const selectTab = (state: RootState) => state.tabs.currentTab;
 
 export default tabsSlice.reducer;

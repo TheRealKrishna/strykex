@@ -6,6 +6,8 @@ import SearchPanel from "./components/search-panel";
 import Tabs from "./components/tabs/tabs";
 import ToggleButton from "./components/toggle-button/toggle-button";
 import ContactUs from "./components/contact-us/contact-us";
+import LiveCredits from "./components/live-credits";
+import UserInfo from "./components/user-info";
 
 export default function LeftPanel() {
   return (
@@ -21,8 +23,10 @@ export default function LeftPanel() {
         <RightSideBorder />
         <ToggleButton />
       </div>
-      <div className="px-3 m-2">
+      <div className="px-3 m-2 space-y-4">
         <ContactUs />
+        <LiveCredits />
+        <UserInfo />
       </div>
     </div>
   );

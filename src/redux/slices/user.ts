@@ -1,17 +1,14 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "../store";
-import {
-  tabs,
-  type tabType,
-} from "@/app/dashboard/components/left-panel/components/tabs/config/tabs";
 
-interface userState {
+type userState = {
   name: string;
   username: string;
   email: string;
   avatarUrl: string;
   balance: number;
   tokenExpiry: string;
+  credits: number;
 }
 
 const initialState: userState = {
@@ -21,6 +18,7 @@ const initialState: userState = {
   avatarUrl: "https://randomuser.me/api/portraits/men/1.jpg",
   balance: 2000764.64,
   tokenExpiry: "2026-12-30",
+  credits: 2,
 };
 
 export const userSlice = createSlice({
