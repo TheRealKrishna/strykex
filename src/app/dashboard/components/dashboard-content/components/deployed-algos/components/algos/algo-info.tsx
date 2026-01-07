@@ -1,6 +1,6 @@
 import React from "react";
 import { algosDeployedType } from "@/app/config/dummy-algo-data";
-import { statusColor } from "../../utils/status-color";
+import { statusColor } from "./constants/status-color";
 import { BsLightningChargeFill } from "react-icons/bs";
 import { dateDecorator } from "./utils/date-decorator";
 
@@ -10,7 +10,7 @@ export default function AlgoInfo({
   algosDeployed: algosDeployedType;
 }) {
   return (
-    <div className="flex items-center justify-start">
+    <div className="flex items-center justify-start flex-1">
       <div>
         {algosDeployed.icon && (
           <algosDeployed.icon className="text-white bg-[#3F75FF] border-3 border-[#000860] rounded-full p-2 text-4xl" />

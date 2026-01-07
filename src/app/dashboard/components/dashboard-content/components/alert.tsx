@@ -3,7 +3,7 @@ import { FiAlertCircle } from "react-icons/fi";
 
 export default function Alert() {
   return (
-    <div className="px-5 pt-5">
+    <div className="pb-4">
       <div className="bg-[#3C0101] flex items-center gap-2 p-2 px-3 rounded-md">
         <FiAlertCircle className="text-xl text-[#FB5A5A]" />
         <p className="font-semibold">Order failed</p>

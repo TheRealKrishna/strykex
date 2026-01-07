@@ -9,6 +9,10 @@ const store = configureStore({
     user: userSlice.reducer,
     dashboard: dashboardSlice.reducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
 });
 
 export type RootState = ReturnType<typeof store.getState>;

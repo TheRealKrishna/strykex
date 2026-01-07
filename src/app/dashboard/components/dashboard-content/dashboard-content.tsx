@@ -5,12 +5,15 @@ import HeadIndices from "./components/head-indices/head-indices";
 import MarketSentiment from "./components/market-indices/market-sentiment";
 import OverallPnL from "./components/overall-pnl/overall-pnl";
 import DeployedAlgos from "./components/deployed-algos/deployed-algos";
+import Alert from "./components/alert";
 
 export default function DashboardContent() {
   return (
-    <div className="p-5 space-y-3 bg-black">
+    // header is h-14 and footer is h-12
+    <div className="p-5 space-y-3 bg-black overflow-y-auto customScrollBar h-[calc(100vh-56px-48px)]">
+      <Alert />
       <Greetings />
-      <div className="flex items-center justify-between gap-2 h-full">
+      <div className="flex items-center justify-between gap-2 h-full max-h-18">
         <HeadIndices />
         <MarketSentiment />
       </div>

@@ -10,6 +10,8 @@ export interface dashboardState {
     change: number;
   }[];
   algosDeployed?: algosDeployedType[];
+  overallPnL?: number;
+  lastUpdated?: string;
 }
 
 const initialState: dashboardState = {
@@ -22,6 +24,8 @@ const initialState: dashboardState = {
     { name: "India VIX", value: 18.25, change: 0.85 },
   ],
   algosDeployed: dummyAlgoData,
+  overallPnL: 150000.75,
+  lastUpdated: "2026-01-08 14:30:00",
 };
 
 export const dashboardSlice = createSlice({

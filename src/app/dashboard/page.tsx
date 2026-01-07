@@ -7,11 +7,10 @@ import Alert from "./components/dashboard-content/components/alert";
 
 export default function Dashboard() {
   return (
-    <div className="w-full h-full overflow-hidden flex">
+    <div className="w-full h-full max-h-dvh overflow-hidden flex">
       <LeftPanel />
       <div className="w-full h-full overflow-hidden">
         <Header />
-        <Alert />
         <DashboardContent />
         <Footer />
       </div>
