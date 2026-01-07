@@ -6,6 +6,7 @@ import MarketSentiment from "./components/market-indices/market-sentiment";
 import OverallPnL from "./components/overall-pnl/overall-pnl";
 import DeployedAlgos from "./components/deployed-algos/deployed-algos";
 import Alert from "./components/alert";
+import FeaturedAlgos from "./components/featured-algos/featured-algos";
 
 export default function DashboardContent() {
   return (
@@ -20,6 +21,9 @@ export default function DashboardContent() {
       <div className="bg-[#101010] border border-[#303030] p-2 rounded-lg flex items-center justify-between gap-1">
         <OverallPnL />
         <DeployedAlgos />
+      </div>
+      <div className="bg-[#101010] border border-[#303030] p-2 rounded-lg flex items-center justify-between gap-1">
+        <FeaturedAlgos />
       </div>
     </div>
   );
