@@ -7,7 +7,7 @@ export default function AlgoPnL({
   algosDeployed: algosDeployedType;
 }) {
   return (
-    <div className="flex-[20%] flex items-center justify-center whitespace-nowrap w-full">
+    <div className="flex-[20%] flex items-center justify-end whitespace-nowrap w-full">
       <p
         className={`text-md font-semibold tracking-wide ${
           algosDeployed.profitLoss >= 0 ? "text-green-500" : "text-red-500"
