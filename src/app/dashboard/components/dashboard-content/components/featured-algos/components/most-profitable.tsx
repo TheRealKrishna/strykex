@@ -31,7 +31,7 @@ export default function MostProfitable() {
           <div className="text-[#22D606] font-bold text-md [text-shadow:0px_0px_25.59px_0px_rgba(34,214,6,0.59)]">+₹2,480 Users</div>
         </div>
         <div className="px-3 my-4">
-          <button className="bg-[linear-gradient(92.49deg,#02A10C_-8.04%,#A17600_101.25%)] w-full py-1 rounded-lg flex items-center justify-center gap-2">
+          <button className="bg-[linear-gradient(92.49deg,#02A10C_-8.04%,#A17600_101.25%)] w-full py-1 rounded-lg flex items-center justify-center gap-2 cursor-pointer hover:brightness-75">
             <p>Deploy Now</p>
           </button>
         </div>

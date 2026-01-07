@@ -38,7 +38,7 @@ export default function MostDeployed() {
           <div className="bg-[linear-gradient(102.45deg,#89CDFF_26.65%,#E34DFF_159.96%)] text-transparent bg-clip-text font-bold text-md [text-shadow:0px_-1.07px_24.74px_0px_rgba(165,84,234,1)]">2,480 Users</div>
         </div>
         <div className="px-3 my-4">
-          <button className="bg-[linear-gradient(92.14deg,#0066B1_-8.09%,#E34DFF_136.29%)] w-full py-1 rounded-lg flex items-center justify-center gap-2">
+          <button className="bg-[linear-gradient(92.14deg,#0066B1_-8.09%,#E34DFF_136.29%)] w-full py-1 rounded-lg flex items-center justify-center gap-2 cursor-pointer hover:brightness-75">
             <p>Deploy Now</p>
           </button>
         </div>

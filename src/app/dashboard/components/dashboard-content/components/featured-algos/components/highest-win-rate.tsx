@@ -38,7 +38,7 @@ export default function HighestWinRate() {
           <div className="text-[#22D606] font-bold text-md [text-shadow:0px_0px_25.59px_0px_rgba(34,214,6,0.59)]">+87.5%</div>
         </div>
         <div className="px-3 my-4">
-          <button className="border-[#474747] border w-full py-1 rounded-lg flex items-center justify-center gap-2">
+          <button className="border-[#474747] border w-full py-1 rounded-lg flex items-center justify-center gap-2 cursor-pointer hover:brightness-75">
             <p>View Details</p>
           </button>
         </div>
