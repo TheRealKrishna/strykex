@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { statusTabsType } from '../config/status-tabs'
+import { statusTabsType } from '../../config/status-tabs';
 
 export default function StatusTab({tab, currentTab, setCurrentTab}: {tab: statusTabsType, currentTab: string, setCurrentTab: React.Dispatch<React.SetStateAction<string>>}) {
 
